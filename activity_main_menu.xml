@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black">
+
+    <TextView
+        android:id="@+id/loggedInUserTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome!: "
+        android:textSize="15sp"
+        android:textColor="#FFFFFF"
+        android:padding="16dp"
+        android:layout_below="@id/logoImageView"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/logoImageView"
+        android:layout_width="400dp"
+        android:layout_height="300dp"
+        android:src="@drawable/logo2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"/>
+
+
+    <Button
+        android:id="@+id/button_start"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Start"
+        android:textColor="@android:color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/loggedInUserTextView"
+        android:layout_marginTop="40dp" />
+
+    <Button
+        android:id="@+id/button_leaderboards"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Leaderboards"
+        android:textColor="@android:color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/button_start"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:id="@+id/button_exit"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Exit"
+        android:textColor="@android:color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/button_leaderboards"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:layout_below="@id/button_exit"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/button_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textColor="@android:color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginStart="20dp" />
+
+    <Button
+        android:id="@+id/button_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textColor="@android:color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="20dp" />
+</RelativeLayout>
